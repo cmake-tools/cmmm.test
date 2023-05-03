@@ -1,1 +1,1 @@
-set(MODULE_NAME "Remote")
+set(MODULE_NAME "GithubRemote")
