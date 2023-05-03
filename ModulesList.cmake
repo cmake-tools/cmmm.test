@@ -8,3 +8,7 @@ cmmm_define_module(RemoteURLRootDirectory REMOTE https://github.com/cmake-tools/
 cmmm_define_module(RemoteURLChildDirectory REMOTE https://github.com/cmake-tools/cmmm.test/blob/main/child/ChildRemote.cmake)
 cmmm_define_module(RemoteURIRootDirectory REMOTE gh:cmake-tools/cmmm.test FILEPATH Remote.cmake)
 cmmm_define_module(RemoteURIChildDirectory REMOTE gh:cmake-tools/cmmm.test FILEPATH child/ChildRemote.cmake)
+cmmm_define_module(RemoteURIRootDirectory REMOTE gl:cmake-tools/cmmm.test FILEPATH Remote.cmake)
+cmmm_define_module(RemoteURIChildDirectory REMOTE gl:cmake-tools/cmmm.test FILEPATH child/ChildRemote.cmake)
+cmmm_define_module(RemoteURIRootDirectory REMOTE bb:cmake-tools/cmmm.test FILEPATH Remote.cmake)
+cmmm_define_module(RemoteURIChildDirectory REMOTE bb:cmake-tools/cmmm.test FILEPATH child/ChildRemote.cmake)
